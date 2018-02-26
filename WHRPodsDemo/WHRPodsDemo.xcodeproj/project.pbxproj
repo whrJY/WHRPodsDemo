@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B991FB204410BA00FF8991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B991FA204410BA00FF8991 /* AppDelegate.m */; };
+		74B991FE204410BA00FF8991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B991FD204410BA00FF8991 /* ViewController.m */; };
+		74B99201204410BA00FF8991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B991FF204410BA00FF8991 /* Main.storyboard */; };
+		74B99203204410BA00FF8991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B99202204410BA00FF8991 /* Assets.xcassets */; };
+		74B99206204410BA00FF8991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B99204204410BA00FF8991 /* LaunchScreen.storyboard */; };
+		74B99209204410BA00FF8991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B99208204410BA00FF8991 /* main.m */; };
+		74B99213204410BA00FF8991 /* WHRPodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B99212204410BA00FF8991 /* WHRPodsDemoTests.m */; };
+		74B9921E204410BA00FF8991 /* WHRPodsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B9921D204410BA00FF8991 /* WHRPodsDemoUITests.m */; };
+		74B9922E2044125B00FF8991 /* WHRDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B9922D2044125B00FF8991 /* WHRDemo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74B9920F204410BA00FF8991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B991EE204410BA00FF8991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B991F5204410BA00FF8991;
+			remoteInfo = WHRPodsDemo;
+		};
+		74B9921A204410BA00FF8991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B991EE204410BA00FF8991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B991F5204410BA00FF8991;
+			remoteInfo = WHRPodsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74B991F6204410BA00FF8991 /* WHRPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHRPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B991F9204410BA00FF8991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74B991FA204410BA00FF8991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74B991FC204410BA00FF8991 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74B991FD204410BA00FF8991 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74B99200204410BA00FF8991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B99202204410BA00FF8991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B99205204410BA00FF8991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B99207204410BA00FF8991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B99208204410BA00FF8991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74B9920E204410BA00FF8991 /* WHRPodsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHRPodsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B99212204410BA00FF8991 /* WHRPodsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHRPodsDemoTests.m; sourceTree = "<group>"; };
+		74B99214204410BA00FF8991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B99219204410BA00FF8991 /* WHRPodsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHRPodsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B9921D204410BA00FF8991 /* WHRPodsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHRPodsDemoUITests.m; sourceTree = "<group>"; };
+		74B9921F204410BA00FF8991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B9922C2044125B00FF8991 /* WHRDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHRDemo.h; sourceTree = "<group>"; };
+		74B9922D2044125B00FF8991 /* WHRDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHRDemo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B991F3204410BA00FF8991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B9920B204410BA00FF8991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B99216204410BA00FF8991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B991ED204410BA00FF8991 = {
+			isa = PBXGroup;
+			children = (
+				74B991F8204410BA00FF8991 /* WHRPodsDemo */,
+				74B99211204410BA00FF8991 /* WHRPodsDemoTests */,
+				74B9921C204410BA00FF8991 /* WHRPodsDemoUITests */,
+				74B991F7204410BA00FF8991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B991F7204410BA00FF8991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B991F6204410BA00FF8991 /* WHRPodsDemo.app */,
+				74B9920E204410BA00FF8991 /* WHRPodsDemoTests.xctest */,
+				74B99219204410BA00FF8991 /* WHRPodsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B991F8204410BA00FF8991 /* WHRPodsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74B9922B2044124B00FF8991 /* Classes */,
+				74B991F9204410BA00FF8991 /* AppDelegate.h */,
+				74B991FA204410BA00FF8991 /* AppDelegate.m */,
+				74B991FC204410BA00FF8991 /* ViewController.h */,
+				74B991FD204410BA00FF8991 /* ViewController.m */,
+				74B991FF204410BA00FF8991 /* Main.storyboard */,
+				74B99202204410BA00FF8991 /* Assets.xcassets */,
+				74B99204204410BA00FF8991 /* LaunchScreen.storyboard */,
+				74B99207204410BA00FF8991 /* Info.plist */,
+				74B99208204410BA00FF8991 /* main.m */,
+			);
+			path = WHRPodsDemo;
+			sourceTree = "<group>";
+		};
+		74B99211204410BA00FF8991 /* WHRPodsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				74B99212204410BA00FF8991 /* WHRPodsDemoTests.m */,
+				74B99214204410BA00FF8991 /* Info.plist */,
+			);
+			path = WHRPodsDemoTests;
+			sourceTree = "<group>";
+		};
+		74B9921C204410BA00FF8991 /* WHRPodsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74B9921D204410BA00FF8991 /* WHRPodsDemoUITests.m */,
+				74B9921F204410BA00FF8991 /* Info.plist */,
+			);
+			path = WHRPodsDemoUITests;
+			sourceTree = "<group>";
+		};
+		74B9922B2044124B00FF8991 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74B9922C2044125B00FF8991 /* WHRDemo.h */,
+				74B9922D2044125B00FF8991 /* WHRDemo.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B991F5204410BA00FF8991 /* WHRPodsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B99222204410BA00FF8991 /* Build configuration list for PBXNativeTarget "WHRPodsDemo" */;
+			buildPhases = (
+				74B991F2204410BA00FF8991 /* Sources */,
+				74B991F3204410BA00FF8991 /* Frameworks */,
+				74B991F4204410BA00FF8991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHRPodsDemo;
+			productName = WHRPodsDemo;
+			productReference = 74B991F6204410BA00FF8991 /* WHRPodsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B9920D204410BA00FF8991 /* WHRPodsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B99225204410BA00FF8991 /* Build configuration list for PBXNativeTarget "WHRPodsDemoTests" */;
+			buildPhases = (
+				74B9920A204410BA00FF8991 /* Sources */,
+				74B9920B204410BA00FF8991 /* Frameworks */,
+				74B9920C204410BA00FF8991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B99210204410BA00FF8991 /* PBXTargetDependency */,
+			);
+			name = WHRPodsDemoTests;
+			productName = WHRPodsDemoTests;
+			productReference = 74B9920E204410BA00FF8991 /* WHRPodsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74B99218204410BA00FF8991 /* WHRPodsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B99228204410BA00FF8991 /* Build configuration list for PBXNativeTarget "WHRPodsDemoUITests" */;
+			buildPhases = (
+				74B99215204410BA00FF8991 /* Sources */,
+				74B99216204410BA00FF8991 /* Frameworks */,
+				74B99217204410BA00FF8991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B9921B204410BA00FF8991 /* PBXTargetDependency */,
+			);
+			name = WHRPodsDemoUITests;
+			productName = WHRPodsDemoUITests;
+			productReference = 74B99219204410BA00FF8991 /* WHRPodsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B991EE204410BA00FF8991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "卫";
+				TargetAttributes = {
+					74B991F5204410BA00FF8991 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					74B9920D204410BA00FF8991 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74B991F5204410BA00FF8991;
+					};
+					74B99218204410BA00FF8991 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74B991F5204410BA00FF8991;
+					};
+				};
+			};
+			buildConfigurationList = 74B991F1204410BA00FF8991 /* Build configuration list for PBXProject "WHRPodsDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B991ED204410BA00FF8991;
+			productRefGroup = 74B991F7204410BA00FF8991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B991F5204410BA00FF8991 /* WHRPodsDemo */,
+				74B9920D204410BA00FF8991 /* WHRPodsDemoTests */,
+				74B99218204410BA00FF8991 /* WHRPodsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B991F4204410BA00FF8991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B99206204410BA00FF8991 /* LaunchScreen.storyboard in Resources */,
+				74B99203204410BA00FF8991 /* Assets.xcassets in Resources */,
+				74B99201204410BA00FF8991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B9920C204410BA00FF8991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B99217204410BA00FF8991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B991F2204410BA00FF8991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B991FE204410BA00FF8991 /* ViewController.m in Sources */,
+				74B99209204410BA00FF8991 /* main.m in Sources */,
+				74B9922E2044125B00FF8991 /* WHRDemo.m in Sources */,
+				74B991FB204410BA00FF8991 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B9920A204410BA00FF8991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B99213204410BA00FF8991 /* WHRPodsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B99215204410BA00FF8991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B9921E204410BA00FF8991 /* WHRPodsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74B99210204410BA00FF8991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B991F5204410BA00FF8991 /* WHRPodsDemo */;
+			targetProxy = 74B9920F204410BA00FF8991 /* PBXContainerItemProxy */;
+		};
+		74B9921B204410BA00FF8991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B991F5204410BA00FF8991 /* WHRPodsDemo */;
+			targetProxy = 74B9921A204410BA00FF8991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74B991FF204410BA00FF8991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B99200204410BA00FF8991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B99204204410BA00FF8991 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B99205204410BA00FF8991 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B99220204410BA00FF8991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74B99221204410BA00FF8991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B99223204410BA00FF8991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WHRPodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organization.WHRPodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74B99224204410BA00FF8991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WHRPodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organization.WHRPodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74B99226204410BA00FF8991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHRPodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organization.WHRPodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHRPodsDemo.app/WHRPodsDemo";
+			};
+			name = Debug;
+		};
+		74B99227204410BA00FF8991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHRPodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organization.WHRPodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHRPodsDemo.app/WHRPodsDemo";
+			};
+			name = Release;
+		};
+		74B99229204410BA00FF8991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHRPodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organization.WHRPodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHRPodsDemo;
+			};
+			name = Debug;
+		};
+		74B9922A204410BA00FF8991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHRPodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organization.WHRPodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHRPodsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B991F1204410BA00FF8991 /* Build configuration list for PBXProject "WHRPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B99220204410BA00FF8991 /* Debug */,
+				74B99221204410BA00FF8991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B99222204410BA00FF8991 /* Build configuration list for PBXNativeTarget "WHRPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B99223204410BA00FF8991 /* Debug */,
+				74B99224204410BA00FF8991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B99225204410BA00FF8991 /* Build configuration list for PBXNativeTarget "WHRPodsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B99226204410BA00FF8991 /* Debug */,
+				74B99227204410BA00FF8991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B99228204410BA00FF8991 /* Build configuration list for PBXNativeTarget "WHRPodsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B99229204410BA00FF8991 /* Debug */,
+				74B9922A204410BA00FF8991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B991EE204410BA00FF8991 /* Project object */;
+}
