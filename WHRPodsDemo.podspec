@@ -1,29 +1,37 @@
-#
-#  Be sure to run `pod spec lint WHRPodsDemo.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
+[!] Unknown command: `[WHRPodsDemo],`
+Did you mean: repo?
 
-Pod::Spec.new do |s|
+Usage:
 
-  s.name         = "WHRPodsDemo"
-  s.version      = "0.0.3"
-  s.summary      = "一个建立pod仓库的简单demo."
-  s.description  = <<-DESC
-                    这只是一个建立pod仓库的简单demo，并没有实际的意思。教学使用。
-                   DESC
+    $ pod COMMAND
 
-  s.homepage     = "https://github.com/whrJY/WHRPodsDemo"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "whrJY" => "549683691@qq.com" }
-  s.platform     = :ios, "8.0"
+      CocoaPods, the Cocoa library package manager.
 
-  s.source       = { :git => "https://github.com/whrJY/WHRPodsDemo.git", :tag => s.version }
+Commands:
 
-  s.source_files  = "Classes", "WHRPodsDemo/WHRPodsDemo/Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-  s.requires_arc = true
+    + cache         Manipulate the CocoaPods cache
+    + deintegrate   Deintegrate CocoaPods from your project
+    + env           Display pod environment
+    + init          Generate a Podfile for the current directory
+    + install       Install project dependencies according to versions from a
+                    Podfile.lock
+    + ipc           Inter-process communication
+    + lib           Develop pods
+    + list          List pods
+    + outdated      Show outdated project dependencies
+    + plugins       Show available CocoaPods plugins
+    + repo          Manage spec-repositories
+    + search        Search for pods
+    + setup         Setup the CocoaPods environment
+    + spec          Manage pod specs
+    + trunk         Interact with the CocoaPods API (e.g. publishing new specs)
+    + try           Try a Pod!
+    + update        Update outdated project dependencies and create new Podfile.lock
 
-end
+Options:
+
+    --silent        Show nothing
+    --version       Show the version of the tool
+    --verbose       Show more debugging information
+    --no-ansi       Show output without ANSI codes
+    --help          Show help banner of specified command
