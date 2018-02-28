@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WHRPodsDemo"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "一个建立pod仓库的简单demo."
   s.description  = <<-DESC
                     这只是一个建立pod仓库的简单demo，并没有实际的意思。教学使用。
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author             = { "whrJY" => "549683691@qq.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/whrJY/WHRPodsDemo.git", :tag => "{0.0.2}" }
+  s.source       = { :git => "https://github.com/whrJY/WHRPodsDemo.git", :tag => s.version }
 
   s.source_files  = "Classes", "WHRPodsDemo/WHRPodsDemo/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
